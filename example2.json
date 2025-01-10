@@ -1,1 +1,108 @@
-{"settings":{"mapWidth":1373,"mapHeight":793,"zoom":true,"hoverTooltip":true,"maxZoom":3,"layer":"layer1","layerSwitcher":"top-right","resetButton":"bottom-right","zoomButtons":"bottom-right"},"locations":[],"layers":[{"id":"layer1","name":"Layer 1","file":"https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/IrLUFx8HQVZTw7hbOvfb2CVkNfz1%2FPalo%20Santo.svg?alt=media&token=8e2df43a-a27e-4c12-a276-89b37c5d02f4"}],"breakpoints":[{"name":"all-screens","below":9000,"container":600},{"name":"mobile","below":480,"container":400,"portrait":true}]}
+{
+	"settings": {
+		"mapWidth": 1680,
+		"mapHeight": 960,
+		"zoom": true,
+		"hoverTooltip": true,
+		"maxZoom": 3,
+		"layer": "layer1",
+		"layerSwitcher": "top-right",
+		"resetButton": "bottom-right",
+		"zoomButtons": "bottom-right",
+		"csv": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTHZPk0WZZIWNbXUqrgRSJyZykb2ZryizfA4z9KQoVyQJQhOsvz4DF4ZhZ1lTpJLsjLXhs2VNDWKo8r/pub?output=csv",
+        "csvEnabled": true,
+        "filters": true,
+        "fullscreen": "top-left",
+        "legend": "",
+        "legendClosed": true,
+        "legendTitle": "Legend",
+        "legendToggle": false,
+        "ordered": true,"sidebar": true,
+        "wayfinding": false
+
+	},
+	"locations": [
+		{
+			"title": "PS 01",
+			"type": "hidden",
+			"id": "PS-01",
+			"coord": [
+				0.7574,
+				0.2612
+			],
+			"zoom": 3.9775,
+			"layer": "layer1"
+		}
+	],
+	"layers": [
+		{
+			"id": "layer1",
+			"name": "Layer 1",
+			"file": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/mFUrOCVE2hTqAUBieKlTeTUuBwK2%2F12.svg?alt=media&token=141b29b9-3cc1-43c5-b451-875e56950e4e"
+		}
+	],
+	"breakpoints": [
+		{
+			"name": "all-screens",
+			"below": 9000,
+			"container": 600
+		},
+		{
+			"name": "mobile",
+			"below": 480,
+			"portrait": true
+		}
+	],
+	"samples": [
+        {
+            "desc": "<p>Este lote ya está vendido.</p>",
+            "id": "Vendido",
+            "style": "vendido",
+            "title": "Vendido",
+            "type": "hidden"
+        },
+        {
+            "desc": "<p>Este lote está reservado.</p>",
+            "id": "Reservado",
+            "style": "reservado",
+            "title": "Reservado",
+            "type": "hidden"
+        },
+        {
+            "action": "sidebar",
+            "desc": "<p>Casa Palo Santo con:<br>Tipología: {{tipologia}}<br>Niveles: {{niveles}}<br>Baños: {{banos}}<br>Parking: {{parking}}<br>Metraje interior: {{interior}}<br>Metraje exterior techado: {{exterior}}<br>Metraje de jardín: {{jardin}}<br>Alberca: {{alberca}}<br>Total: {{total}}<br>Precio: <strong>{{precio}}</strong></p>",
+            "group": [
+            ],
+            "id": "def",
+            "image": "https://firebasestorage.googleapis.com/v0/b/aobao-ad50f.appspot.com/o/IrLUFx8HQVZTw7hbOvfb2CVkNfz1%2Fpalo-santo.jpg?alt=media&token=b00d80c6-807c-4b17-a44f-dc9ff1d9b6dc",
+            "style": "disponible",
+            "title": "Disponible",
+            "type": "hidden"
+        }
+    ],
+	"target": "example2.json",
+	"groups": [],
+	"styles": [
+        {
+            "base-color": "#fae1a4",
+            "class": "reservado",
+            "marker": true,
+            "svg": true
+        },
+        {
+            "base-color": "#febebe",
+            "class": "vendido",
+            "marker": true,
+            "svg": true
+        },
+        {
+            "active-color": "#aecd54",
+            "class": "disponible",
+            "hover-color": "#c3db79",
+            "marker": true,
+            "svg": true
+        }
+    ],
+	"filters": [],
+	"routes": []
+}
